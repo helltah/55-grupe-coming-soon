@@ -1,0 +1,20 @@
+{
+  "name": "55-grupe-coming-soon",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "dev": "dead-server",
+    "test": "echo \"Error: no test specified\" && exit 1"
+    
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "description": "",
+  "dependencies": {
+    "modules": "^0.4.0"
+  },
+  "devDependencies": {
+    "dead-server": "^1.0.9"
+  }
+}
