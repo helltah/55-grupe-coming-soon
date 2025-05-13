@@ -4,17 +4,24 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
-    <link rel="icon" type="image/png" href="./favicon-96x96.png" sizes="96x96" />
-<link rel="icon" type="image/svg+xml" href="./favicon.svg" />
+    <link rel="icon" type="image/png" href="./favicon (3)/favicon-96x96.png" sizes="96x96" />
+<link rel="icon" type="image/svg+xml" href="./favicon (3)/favicon.svg" />
 <link rel="shortcut icon" href="./favicon.ico" />
-<link rel="apple-touch-icon" sizes="180x180" href="./apple-touch-icon.png" />
+<link rel="apple-touch-icon" sizes="180x180" href="./favicon (3)/apple-touch-icon.png" />
 <meta name="apple-mobile-web-app-title" content="MyWebSite" />
-<link rel="manifest" href="./site.webmanifest" />
-<link rel="stylesheet" href="./css/pages/coming-soon.css">
-<link rel="stylesheet" href="./css/components/layout.css">
+<link rel="manifest" href="./favicon (3)/site.webmanifest" />
+<!-- base/layout -->
+<link rel="stylesheet" href="./css/base/base.css">
+<link rel="stylesheet" href="./css/base/layout.css">
+<!-- vendor -->
+<link rel="stylesheet" href="./css/vendor/font-awesome.min.css">
+<!-- components -->
 <link rel="stylesheet" href="./css/components/clock.css">
 <link rel="stylesheet" href="./css/components/mouse.css">
 <link rel="stylesheet" href="./css/components/progress-bar.css">
+<link rel="stylesheet" href="./css/components/forms.css">
+<!-- custom -->
+<link rel="stylesheet" href="./css/pages/coming-soon.css">
 </head>
 
 <body>
@@ -41,6 +48,17 @@
                     <div class="label">Seconds</div>
                 </div>
             </div>   
+            <form class="form">
+                <div class="form-row">
+                    <div class="form-group">
+                        <label for="email">Email</label>
+                       <input id="email" type="email" name="" value="" placeholder="Your email" required>
+                    </div>
+                </div>
+                <div class="form-row">
+                    <button type="sum">Subscribe</button>
+                </div>
+            </form>    
             <div class="mouse"></div>
         </div>
         </header>
@@ -81,12 +99,44 @@
             <div class="column">
                 <h2 class="section-title">Have any question</h2>
                 <p class="section-description">Lorem ipsum dolor sit amet consectetur adipisicing elit. Illum beatae vel at corrupti architecto <a href="mailto:mano@pastas.lt">mano@pastas.lt</a> totam neque cupiditate nesciunt suscipit animi consequatur, ducimus quo, molestias quae?</p>
-                    
-            </div>
+                <form class="form">
+                    <div class="form-row">
+                        <div class="form-group">
+                            <label for="email">Name</label>
+                           <input id="email" type="email" name="" value="Vardenis" placeholder="Your name">
+                        </div>
+                        <div class="form-group">
+                            <label for="email">Email</label>
+                           <input id="email" type="email" name="" value="" placeholder="Your email" autofocus>
+                        </div>
+                    </div>
+                    <div class="form-row">
+                        <div class="form-group">
+                            <label for="message">Message</label>
+                            <textarea id="message" name="message" maxlength="500" minlength="20" placeholder="Your message"></textarea>
+                        </div>
+                    </div>
+                    <div class="form-row">
+                        <button type="submit">Send message</button>
+                    </div>
+                </form>
+            </div >
         </div>
      </main>
 
      <footer class="container bg-blue">
+        
+        <div class="row">
+            <div class="socials">
+                <a href="#" class="fa fa-facebook"></a>
+                <a href="#" class="fa fa-twitter"></a>
+                <a href="#" class="fa fa-dribbble"></a>
+                <a href="#" class="fa fa-tumblr"></a>
+                <a href="#" class="fa fa-linkedin"></a>
+                <a href="#" class="fa fa-instagram"></a>
+                <a href="#" class="fa fa-rss"></a>
+            </div>
+        </div>
         <div class="row-short">
             <img class="logo-white" src="./img/project-design-logo.webp" alt="Logo">
             <div class="text-trio">
