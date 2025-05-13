@@ -3,7 +3,7 @@
 }
 
 .hero {
-    background-image: url(../../img/background.png) ;
+    background-image: url(../.././img/project-background.png);
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
